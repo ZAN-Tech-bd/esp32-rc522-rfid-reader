@@ -93,29 +93,6 @@ The frequency used is **13.56 MHz**, and this family of cards is called
 
 ---
 
-## 3. Shopping List (Parts You Need)
-
-| # | Part | How many | Roughly costs | Notes |
-|---|------|----------|---------------|-------|
-| 1 | **ESP32 development board** | 1 | $4–$8 | The "ESP32 DevKit V1" (30-pin) is the most common. Any ESP32 works. |
-| 2 | **RC522 RFID module** | 1 | $2–$4 | A small **blue** board with a big flat coil printed on it. |
-| 3 | **RFID card and/or keyfob** | 1+ | Usually free | These almost always come in the box *with* the RC522. |
-| 4 | **Female-to-female jumper wires** | 7 | $2 for a pack | "Dupont wires." Female-to-female = holes on both ends. |
-| 5 | **Micro-USB or USB-C cable** | 1 | You probably have one | ⚠️ Must be a **data** cable, not a charge-only cable! |
-| 6 | **Breadboard** | 0 or 1 | $2 | Optional. You can wire it directly with jumper wires. |
-| 7 | **A computer** | 1 | — | Windows, Mac, or Linux all work. |
-
-**Tip for buying:** Search for *"RC522 RFID kit"* — most sellers bundle the
-module, a card, a keyfob, and the pin header all together.
-
-⚠️ **Important:** Your RC522 might arrive with the row of metal pins **not
-soldered on**. If the pins come as a loose black strip, an adult with a
-soldering iron needs to attach them before you can plug wires in. Some sellers
-sell a pre-soldered version — worth paying an extra dollar for if you don't have
-a soldering iron.
-
----
-
 ## 4. Meet Your Parts
 
 ### The ESP32 — the brain 🧠
