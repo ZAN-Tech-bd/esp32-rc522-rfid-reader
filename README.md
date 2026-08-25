@@ -918,33 +918,6 @@ and messing with cards that aren't yours isn't cool.
 
 ---
 
-## Quick Reference Card ✂️
-
-*Print this out and tape it next to your workbench.*
-
-```
-╔══════════════════════════════════════════════════╗
-║   ESP32 + RC522 — WIRING CHEAT SHEET             ║
-╠══════════════════════════════════════════════════╣
-║   RC522          →     ESP32                     ║
-║   ─────────────────────────────                  ║
-║   3.3V           →     3V3   ⚠️ NEVER 5V/VIN!    ║
-║   RST            →     GPIO 4                    ║
-║   GND            →     GND                       ║
-║   IRQ            →     (not connected)           ║
-║   MISO           →     GPIO 19                   ║
-║   MOSI           →     GPIO 23                   ║
-║   SCK            →     GPIO 18                   ║
-║   SDA            →     GPIO 5                    ║
-╠══════════════════════════════════════════════════╣
-║   Board:   ESP32 Dev Module                      ║
-║   Baud:    115200                                ║
-║   Library: MFRC522 by GithubCommunity            ║
-╚══════════════════════════════════════════════════╝
-```
-
----
-
 ## Safety Notes for Young Builders 🦺
 
 - **Always unplug before rewiring.** Every time.
